@@ -3,6 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 **Overview:**
 
+_**First of all, clone repo and push to your existing repo or create a new one, or you can fork and start coding.**_
+
+
 We have 2 main folders for frontend and backend part's, please use it without changes.
 The main goal of this technical task check your hard skills and review your knowledge with technologies.
 Please pay attention for completing this task as better as you can(after coding check lint errors, realize improvements, use tricks and tips to solve it as simple as you can without any long-terms).
