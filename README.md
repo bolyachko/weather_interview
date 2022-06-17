@@ -20,7 +20,7 @@ Good luck!
 - Connect Redux also you can include redux devtools **1point.**
 
 ### **Middle** 7 points
-- Implement https://openweathermap.org/api/hourly-forecast create 1 day forecast weather ONLy for your region by using navigator JS for lat and lng. KEEP IN MIND! API for 4 days, you only need to show for current day.
+- Implement https://openweathermap.org/api/hourly-forecast create 1 day forecast weather ONLY!!!. For your region by using navigator JS for lat and lng. KEEP IN MIND! API for 4 days, you only need to show for current day.
  **Please use API KEY:** (b7a1f25e1ebee3f154d0a3e002defecb) 
 _**Figma URL**_ https://www.figma.com/file/XwfZ2eainMW2gwpcCqHF8K/WeatherAppUplabs?node-id=0%3A1 **7 points**
 
