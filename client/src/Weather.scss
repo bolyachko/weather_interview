@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+.weather-app {
+  font-family: Montserrat;
+  margin: 5% 20%;
+
+  .weather-element {
+    margin-top: 45px;
+    margin-left: 40px;
+    display: flex;
+
+    .markup {
+      position: relative;
+      &::after {
+        content:'\00B7';
+        display: block;
+        font-size: 160px;
+        line-height: 0;
+        color: #617BE3;
+        position: absolute;
+        left: -50px;
+        top: 10px;
+      }
+    }
+
+    &:nth-child(n + 3) {
+      .markup {
+        &::before {
+          content: '';
+          display: block;
+          width: 0;
+          height: 90px;
+          border-left: 2px dashed #617BE3;
+          position: absolute;
+          left: -30px;
+          top: -70px;
+        }
+      }
+    }
+
+    .time {
+      min-width: 80px;
+      font-size: 12px;
+      text-align: center;
+    }
+
+  }
+
+  .today {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .weather {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+
+    > span {
+      font-size: 12px;
+    }
+
+    &.morning {
+      background-color: #90D0FF;
+    }
+    &.afternoon {
+      background-color: #FFE1B2;
+    }
+    &.evening {
+      background-color: #FFBAC1;
+    }
+    &.night {
+      background-color: #02A8A857;
+    }
+
+    .temperature {
+      font-weight: bold;
+      &::after {
+        content: '\00B0';
+        font-size: 14px;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .icon {
+    background-position: 0 0;
+    display: block;
+    width: 50px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+
+    &.icon-01d {
+      background-position: -10px -40px;
+    }
+
+    &.icon-02d {
+      background-position: -70px -40px;
+    }
+
+    &.icon-03d {
+      background-position: -135px -40px;;
+    }
+
+    &.icon-04d {
+      background-position: -10px -95px;
+    }
+
+    &.icon-09d {
+      background-position: -70px -95px;
+    }
+
+    &.icon-11d {
+      background-position: -135px -95px;;
+    }
+
+    &.icon-01n {
+      background-position: -10px -155px;
+    }
+
+    &.icon-02n {
+      background-position: -70px -155px;
+    }
+
+    &.icon-03n {
+      background-position: -70px -155px;
+    }
+
+    &.icon-04n {
+      background-position: -70px -155px;
+    }
+
+    &.icon-09n {
+      background-position: -135px -155px;;
+    }
+
+    &.icon-10n {
+      background-position: -135px -155px;;
+    }
+  }
+
+  .weather-details {
+    margin-top: 50px;
+    .weather-items {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .weather-item {
+        padding: 30px;
+        box-sizing: border-box;
+        width: 50%;
+        display: flex;
+        .img {
+          min-width: 30px;
+          text-align: center;
+        }
+        .weather-text {
+          align-self: center;
+          margin-left: 15px;
+          .value {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+
+}
